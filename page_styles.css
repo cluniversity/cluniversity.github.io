@@ -104,94 +104,89 @@ header h1, h2 {
 	padding: 0 5%;
 }
 
-#news {
+#staff-areas {
 	clear:both;
 	float:left;
 	padding: 10px 10px;
 	width: 10%;
 	font-size: 18px;
-	background-color:#05A8AA;
 	overflow: hidden;
 }
 
-#news h2 {
+#staff-areas h2 {
 	font-family: 'Open Sans';
 	font-size: 24px;
 	color: black;
 }
-	
 
-#news .type , .date {
+#staff-areas ul {
+	width: 100%;
+	padding: 10px 0 2px 0;
+	margin: 0;
+}
+
+#staff-areas li {
+	list-style-type:none;
+	margin: 0;
+	padding: 8px 0;
+}
+
+#staff-areas li a {
+	text-decoration: none;
+	color: #05A8AA;
+	transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+#staff-areas li a:hover {
 	color: #DC602E;
-	font-weight: bold;
-	line-height: 90%;
-}
-
-#news .date {
-	font-style: italic;
-	font-size: 14px;
-}
-
-#news .body {
-	color: #ffffff;
-	font-size: 14px;
-	border-bottom: 1px solid #DC602E;
-	padding: 3px 0;
-}
-
-#events {
-	clear:both;
-	float:left;
-	margin: 10px 0;
-	padding: 10px 10px;
-	width: 10%;
-	font-size: 18px;
-	background-color:#05A8AA;
-}
-
-#events h2 {
-	font-family: 'Open Sans';
-	font-size: 24px;
-	color: black;
-}
-	
-
-#events .type , .date {
-	color: #DC602E;
-	font-weight: bold;
-	line-height: 90%;
-}
-
-#events .date {
-	font-style: italic;
-	font-size: 14px;
-}
-
-#events .body {
-	color: #ffffff;
-	font-size: 14px;
-	padding: 4px 0;
-	border-bottom: 1px solid #DC602E;
 }
 
 aside {
 	width:75%;
-	padding: 10px;
+	padding: 15px;
 	display:inline-block;
+	border-left:1px solid #05A8AA;
+}
+
+aside h1 {
+	color: #05A8AA;
+	font-size: 36px;
 }
 
 aside h2 {
 	color: #DC602E;
+	font-size: 24px;
+}
+
+#staff-listing ul {
+	padding: 5px 0 20px 15px;
+	margin: 0;
+	border-bottom: 1px solid #05A8AA;
+}
+
+#staff-listing li {
+	list-style-type:none;
+	margin: 0;
+	padding: 5px 0;
+}
+
+#staff-listing ul h3 {
+	padding: 0;
+	color: #DC602E;
 	font-size: 18px;
 }
 
-aside #info {
-	border-bottom: 1px solid #DC602E;
+#staff-listing ul h3, p {
+	line-height: 80%;
 }
 
-#info .strapline {
-	color: #05A8AA;
+#staff-listing ul p {
+	font-size: 14px;
 }
+
+
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
